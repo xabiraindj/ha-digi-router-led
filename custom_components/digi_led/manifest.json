@@ -1,11 +1,15 @@
 {
   "domain": "digi_led",
   "name": "DIGI Router LEDs",
-  "codeowners": ["@xabiraindj"],
+  "codeowners": [
+    "@xabiraindj"
+  ],
   "config_flow": true,
   "documentation": "https://github.com/xabiraindj/ha-digi-router-led",
   "issue_tracker": "https://github.com/xabiraindj/ha-digi-router-led/issues",
   "iot_class": "local_polling",
-  "requirements": ["pycryptodome==3.23.0"],
+  "requirements": [
+    "pycryptodome==3.23.0"
+  ],
   "version": "1.0.1"
 }
