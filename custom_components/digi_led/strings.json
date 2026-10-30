@@ -1,0 +1,18 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to your DIGI router",
+        "description": "Enter the local IP address and the administrator credentials for your DIGI PE5301-01 router.",
+        "data": {
+          "host": "Router IP address",
+          "username": "Username",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_host": "Enter a valid IP address."
+    }
+  }
+}
